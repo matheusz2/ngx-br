@@ -2,7 +2,7 @@ import {Pipe, PipeTransform} from '@angular/core';
 import {cnpjPattern, cpfPattern} from "../commons/constants";
 
 const vanillaMasker = require('vanilla-masker');
-const CPF_LENGTH = 11;
+const CPF_LENGTH = 14;
 
 @Pipe({
   name: 'cpfOuCnpj',
